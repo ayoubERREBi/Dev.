@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Complète</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <i title="une partie italique">em tag</i>
+    <header>
+        <h1>Bienvenue sur ma page web</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="section1">
+            <h2>Section 1</h2>
+            <p>Ceci est le contenu de la première section.</p>
+            <img src="image1.jpg" alt="Image 1">
+            <p>Une autre partie du contenu de la première section.</p>
+        </section>
+        
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>Voici le contenu de la deuxième section.</p>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Votre navigateur ne prend pas en charge la balise vidéo.
+            </video>
+        </section>
+        
+        <section id="section3">
+            <h2>Section 3</h2>
+            <form action="/submit_form" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                
+                <input type="submit" value="Soumettre">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ma Page Web. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
